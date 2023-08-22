@@ -1,0 +1,11 @@
+
+@import '../utils/vars';
+
+.carousel {
+  position: relative;
+  width: $card-size;
+  height: $card-size;
+  perspective: 500px;
+  transform-style: preserve-3d;
+}
+
